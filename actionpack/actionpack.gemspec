@@ -26,4 +26,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'actionview',  version
   s.add_development_dependency 'activemodel', version
+
+  s.add_development_dependency 'rack-cache', '~> 1.2'
 end
